@@ -1,0 +1,42 @@
+{
+    "name": "hpm_backend",
+    "version": "1.0.0",
+    "description": "hpm backend",
+    "main": "app.js",
+    "scripts": {
+      "start": "node ./src/init.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+      "node": "15.8.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AA-Plus-Solutions/HPM_QUOTE_BACKEND.git"
+    },
+    "keywords": [
+      "HPM",
+      "QUOTE",
+      "BACKEND"
+    ],
+    "author": "Oscar Rosete",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AA-Plus-Solutions/HPM_QUOTE_BACKEND/issues"
+    },
+    "homepage": "https://github.com/AA-Plus-Solutions/HPM_QUOTE_BACKEND#readme",
+    "dependencies": {
+      "axios": "^0.26.0",
+      "bcrypt": "^5.0.1",
+      "cloudinary": "^1.28.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.0",
+      "express": "^4.17.3",
+      "express-session": "^1.17.2",
+      "joi": "^13.0.2",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.2.3",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.4"
+    }
+  }
