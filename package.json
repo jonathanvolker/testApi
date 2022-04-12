@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "15.8.0"
+    "node": "15.8.0",
+    "npm": ">= 8.5.5",
+    "yarn":">= 1.22.11"
   },
   "dependencies": {
     "@emotion/react": "^11.8.1",
